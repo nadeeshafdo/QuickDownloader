@@ -1,4 +1,6 @@
-# QuickDownloader
+# QuickDownloader - (CLI tool)
+
+![Captured: running program](/docs/imgs/figure01.png)
 
 **Description:**
 
