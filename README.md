@@ -1,60 +1,42 @@
-# QuickDownloader - (CLI tool)
+# Quick Downloader
 
-![Captured: running program](/docs/imgs/figure01.png)
+A Python script for parallel file downloads in multiple parts using threads.
 
-**Description:**
+## Prerequisites
 
-QuickDownloader is a Python script that simplifies the process of downloading files from the internet. It is a command-line tool designed to make downloading files as easy and efficient as possible. Whether you need to grab large datasets, software updates, or any other files from the web, QuickDownloader has got you covered.
+Make sure you have the following installed:
 
----
+- Python 3
+- `requests` library (can be installed via `pip install -r requirements.txt`)
 
-**Features:**
-- Fast and easy file downloads with a simple command-line interface.
-- Progress bar for tracking download status.
-- Automatic filename extraction from the URL or Content-Disposition header.
-- Resumes interrupted downloads.
-- Built-in timeout to handle slow or unresponsive servers.
-- Suitable for various file types, including datasets, documents, software, and more.
-- Exception handling to ensure a smooth download experience.
+## Usage
 
-**Usage:**
+1. Clone this repository or download the `quickdownloader.py` script.
 
-1. Clone the repository or download the `quickdownloader.py` script.
+2. Open a terminal or command prompt.
 
-2. Run the script from the command line:
+3. Run the script by executing:
 
-```bash
-python quickdownloader.py
+    ```shell
+    python quickdownloader.py
+    ```
+
+4. Follow the prompts to specify the URL and the number of parts for the download.
+
+## Example
+
+```shell
+$ python quickdownloader.py
+URL: https://www.sample.com/sample.exe
+Number of parts: 4
 ```
 
-3. Enter the URL of the file you want to download when prompted.
+## How It Works
 
-**Example Usage:**
+The script downloads a file in multiple parts, creating progress bars for each part. When all parts are downloaded, they are combined into a single file.
 
-```bash
-File URL: https://example.com/sample-file.zip
-```
+## License
 
-QuickDownloader will then start the download, display a progress bar, and save the file with the appropriate name.
-
-**Installation:**
-
-QuickDownloader requires Python and the `requests` and `tqdm` libraries. If you don't have them installed, you can install them using pip:
-
-```bash
-pip install requests tqdm
-```
-
-**Contributing:**
-
-Contributions to QuickDownloader are welcome. If you have suggestions, improvements, or feature requests, please open an issue or submit a pull request.
-
-**License:**
-
-This project is licensed under the MIT License. See the LICENSE file for details.
-
-**Disclaimer:**
-
-Use QuickDownloader responsibly and only for legal purposes. The developer is not responsible for any misuse or illegal activities involving this tool.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
