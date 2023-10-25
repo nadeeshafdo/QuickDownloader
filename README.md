@@ -1,42 +1,65 @@
-# Quick Downloader
+# Quick Downloader - (CLI tool)
 
-A Python script for parallel file downloads in multiple parts using threads.
+## Introduction
 
-## Prerequisites
+Welcome to the Quick Downloader repository! This Python-based tool is designed to make downloading large files a breeze. By splitting the download into multiple parts and downloading them concurrently, it aims to significantly reduce the total download time.
 
-Make sure you have the following installed:
+The project utilizes Python's threading capabilities to achieve concurrent downloads, and the `requests` library for handling HTTP requests.
 
-- Python 3
-- `requests` library (can be installed via `pip install -r requirements.txt`)
+Whether you're dealing with large datasets, high-resolution media files, or just want to boost your download speed, the QuickDownloader is here to help. We hope you find it useful!
 
-## Usage
+We appreciate your interest in QuickDownloader and look forward to your feedback as we work towards a stable release. Thank you for testing this pre-release version!
 
-1. Clone this repository or download the `quickdownloader.py` script.
 
-2. Open a terminal or command prompt.
+### Quick Start
 
-3. Run the script by executing:
+1. Click on this [link](https://github.com/astrogroupsl-dev/QuickDownloader/archive/refs/heads/main.zip) to download this repository.
 
+2. Unzip the downloaded ZIP file and open `QuickDownloader-main` directory with your terminal.
+
+3. Execute following command to install necessary libraries.
+    ```shell
+    pip install -r requirements.txt
+    ```
+
+4. Then execute following command to run the tool.
     ```shell
     python quickdownloader.py
     ```
 
-4. Follow the prompts to specify the URL and the number of parts for the download.
+## Contents
 
-## Example
+- #### **build [Directory]**
 
-```shell
-$ python quickdownloader.py
-URL: https://www.sample.com/sample.exe
-Number of parts: 4
-```
+    This directory contains the files that essential when building executable binary files.
 
-## How It Works
+- #### **test [Directory]**
 
-The script downloads a file in multiple parts, creating progress bars for each part. When all parts are downloaded, they are combined into a single file.
+    This directory can be use to do experiment of the tool.
+
+- #### **quickdownloader.py [File]**
+
+    This file should be the main executer of the `Quick Downloader` tool when developing.
+
+## Call for Contributors
+
+Hello and welcome to the Quick Downloader project!
+
+We're thrilled that you're interested in contributing to our project. This tool, built with Python, aims to make the process of downloading large files more efficient by splitting the download into multiple parts and handling them concurrently.
+
+As an open-source project, we believe in the power of collaboration and the amazing things we can achieve together. Whether you're a seasoned developer or a newcomer looking to learn, we welcome contributions from everyone.
+
+Here are a few ways you can contribute:
+- **Code**: Improve the efficiency of the download algorithm, add error handling and retries, or even implement new features.
+- **Documentation**: Enhance the README, add comments to the code, or create guides and tutorials to help new users or contributors.
+- **Testing**: Find and report bugs, and help us improve the robustness of our tool.
+- **Ideas**: Share your ideas for new features or improvements.
+
+Before you start contributing, please make sure to check out our contribution guidelines (if available). And remember, every contribution counts, no matter how small!
+
+We look forward to seeing your contributions. Happy coding!
+
 
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
