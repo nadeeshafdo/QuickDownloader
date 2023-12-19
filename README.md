@@ -1,4 +1,4 @@
-# Quick Downloader - (CLI tool)
+# Quick Downloader - Command Line Based GUI Tool
 
 ## Introduction
 
@@ -10,36 +10,24 @@ Whether you're dealing with large datasets, high-resolution media files, or just
 
 We appreciate your interest in QuickDownloader and look forward to your feedback as we work towards a stable release. Thank you for testing this pre-release version!
 
+## Quick Start
 
-### Quick Start
-
-1. Click on this [link](https://github.com/astrogroupsl-dev/QuickDownloader/archive/refs/heads/main.zip) to download this repository.
-
+1. Click on this link to download this repository.
 2. Unzip the downloaded ZIP file and open `QuickDownloader-main` directory with your terminal.
-
-3. Execute following command to install necessary libraries.
+3. Execute the following command to install necessary libraries:
     ```shell
     pip install -r requirements.txt
     ```
-
-4. Then execute following command to run the tool.
+4. Then execute the following command to run the tool:
     ```shell
     python quickdownloader.py
     ```
 
 ## Contents
 
-- #### **build [Directory]**
-
-    This directory contains the files that essential when building executable binary files.
-
-- #### **test [Directory]**
-
-    This directory can be use to do experiment of the tool.
-
-- #### **quickdownloader.py [File]**
-
-    This file should be the main executer of the `Quick Downloader` tool when developing.
+- **build [Directory]**: This directory contains the files that are essential when building executable binary files.
+- **test [Directory]**: This directory can be used to do experiments with the tool.
+- **quickdownloader.py [File]**: This file should be the main executor of the `Quick Downloader` tool when developing.
 
 ## Call for Contributors
 
@@ -59,7 +47,6 @@ Before you start contributing, please make sure to check out our contribution gu
 
 We look forward to seeing your contributions. Happy coding!
 
-
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the LICENSE file for details.
