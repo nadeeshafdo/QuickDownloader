@@ -25,10 +25,12 @@ The tool utilizes Python's threading capabilities and the `requests` library for
 ![Screenshot of the tool](./docs/screenshot.png)
 Test downloading [this file](https://github.com/nadeeshafdo/SeismicDataWorldwide/raw/refs/heads/main/query_M2.5+_2000-2024.csv.7z).
 
-## Installation
+## Usage
 
-1. Click on this link to download this repository.
-2. Unzip the downloaded ZIP file and open `quickdownloader-main` directory with your terminal.
-3. Execute the following command to install necessary libraries:
-    
-
+1. Install the requirements using `pip install -r requirements.txt`.
+2. Run the script using `python main.py`.
+3. Enter the URL of the file you want to download and the path to save it to.
+4. Optionally, you can specify the number of threads to use and the download speed limit.
+5. Click the "Download" button to start the download.
+6. You can pause and resume the download at any time.
+7. You can cancel the download at any time.
